@@ -23,6 +23,7 @@ int main(void)
     pow (a,b,c);
     if (*c == 0) cout <<"a^b = " << pow(a,b,c) << endl;
 	    else cout << " a^b = Error" << endl;
+    sq(a,c);	
     if (*c == 0) cout <<"sqrt a = " << sq(a,c) << endl;
 	    else cout << " sqrt a = Error" << endl;
     _getch();
