@@ -18,7 +18,9 @@ return a-b;
 
 double mult (float a, float b)
 {
-	return a*b;
+	if (a==0 || b==0)
+		return 0;
+		else return a*b;
 }
 
 double div (float a, float b, int* c)
