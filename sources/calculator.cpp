@@ -48,7 +48,7 @@ float pow (float a, float b, int* c)
 					}
 				}
 		else a == 1.0;
-		return (double) a;
+		return (float) a;
 		}
 		else if ( a == 0 && b < 0 ) *c = 1;
 			else if ( a == 0 && b > 0 ) return 0;
