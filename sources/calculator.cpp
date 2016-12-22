@@ -34,7 +34,7 @@ float pow (float a, float b, int* c)
 		*c = 0;
 		if (b < 0)
 		{
-	    	for (int i = 1; i <-b ; i++)
+	    	for (unsigned int i = 1; i <-b ; ++i)
 		 	{
 		 	a*=a2;
 		 	}
@@ -42,12 +42,12 @@ float pow (float a, float b, int* c)
 			}
 				else if (b>0)
 				{
-					for (int i = 1; i < b; i++)
+					for (unsigned int i = 1; i < b; ++i)
 					{
 						a*=a2;
 					}
 				}
-		else a == 1.0;
+		else a = 1.0;
 		return (float) a;
 		}
 		else if ( a == 0 && b < 0 ) *c = 1;
