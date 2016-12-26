@@ -61,7 +61,7 @@ float pow (float a, float b, int* c)
 double *sq (float a, int* c)
 {	
 	float n = 1.0;  
-	float t = 2.0;
+	double t = 2.0;
 	
 	if ( a >= 0 )
 	{
