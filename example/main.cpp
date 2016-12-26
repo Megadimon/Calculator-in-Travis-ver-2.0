@@ -26,6 +26,6 @@ int main(void)
     sq(a,c);	
     if (*c == 0) cout <<"sqrt a = " << sq(a,c) << endl;
 	    else cout << " sqrt a = Error" << endl;
-    _getch();
+    
     return 0;
  }
