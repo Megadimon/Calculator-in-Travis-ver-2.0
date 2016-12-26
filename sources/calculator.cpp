@@ -18,7 +18,8 @@ double mult (float a, float b)
 
 double *div (float a, float b, int* c)
 {
-	if (b != 0 && a != 0) return (float)a/b;
+	if (b != 0 && a != 0){ double *d=new double; 
+		*d = (float)a/b;  return d;}
 		else if (a == 0 && b != 0) return 0;
 			else if (b == 0) 
 			{
@@ -77,7 +78,9 @@ double *sq (float a, int* c)
 		}
 			else if ( a == 1 ) t = 1;
 				else if ( a == 0 ) t = 0;
-				return t;
+		double *d=new double; 
+		*d = t; 
+				return d;
 	}
 		else 
 		{
