@@ -48,7 +48,7 @@ SCENARIO("calculator sq", "[sq]") {
     float b = 1.0; 
     int* c = (int*)malloc(sizeof(int));
     
-    double *rv = sq( a, c );
+    double *rv = sq( a, c ); 
     
-	REQUIRE( rv == 3.0 );
+	REQUIRE( rv == nullptr );
 }
